@@ -1,0 +1,14 @@
+.link {
+    color: blue;
+    text-decoration: none;
+}
+
+.link:global(.active) {
+    color: red;
+}
+
+.content ul{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
